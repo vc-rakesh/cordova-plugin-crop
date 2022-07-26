@@ -82,6 +82,7 @@ static inline NSString *PELocalizedString(NSString *key, NSString *comment)
     
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.toolbar.translucent = NO;
+    self.navigationController.navigationBar.backgroundColor = UIColor.whiteColor;
 
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
                                                                                           target:self
