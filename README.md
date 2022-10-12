@@ -8,7 +8,7 @@
 ## Install
 
 ```
-$ cordova plugin add --save cordova-plugin-crop
+$ cordova plugin add --save vc-rakesh/cordova-plugin-crop
 ```
 
 
